@@ -13,7 +13,7 @@ processors:
     attributes:
       # Not using gcp detector to avoid increasing time series due to changing instance IDs in Cloud Run.
       - key: 'location'
-        value: 'us-east1' # Set the location to your Google Cloud region
+        value: 'asia-southeast1' # Set the location to your Google Cloud region
         action: upsert
 
 exporters:
